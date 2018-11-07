@@ -4,7 +4,7 @@ Scripts for automating Partitioned Coalescence Support (PCS) using MP-EST
 pcs_mpest.pl
 
 ## Overview: 
-This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 CLadistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
+This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 Cladistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
 
 See [Gatesy et al. bioRxiv pre-print](https://www.biorxiv.org/content/early/2018/11/04/461699) for more information.
 
@@ -14,7 +14,7 @@ This automation is implemented with a Perl script that has been designed for a U
 
 Perl - The provided Perl script should be called by users (pcs_mpest.pl). Perl is pre-installed in most Mac OSX and Linux distributions.
 
-MP-EST - The Perl script calls [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est), which must be installed, and the user must provide the full path and file name for the MP-EST executable. The script has been tested with MP-EST v1.5 but would likely work with other versions.
+MP-EST - The Perl script calls [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est), which must be installed, and the user must provide the full path and file name for the MP-EST executable. The script has been tested with MP-EST v1.5 and v2.0 but would likely work with other versions.
 
 
 ## Running pcs_mpest.pl:
