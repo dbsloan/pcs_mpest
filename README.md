@@ -4,7 +4,7 @@ Scripts for automating Partitioned Coalescence Support (PCS) using MP-EST
 pcs_mpest.pl
 
 ## Overview: 
-This script implements the "partitioned coalescence support" method by automating the process of removing one tree at a time from a set of gene trees and analyzing species trees using MP-EST (http://faculty.franklin.uga.edu/lliu/content/mp-est). The effect of removing each gene on the support for a reference species tree relative to one or more user-specified alternative topologies is calculated and reported in the form of PCS values.
+This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 CLadistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
 
 See [Gatesy et al. bioRxiv pre-print](https://www.biorxiv.org/content/early/2018/11/04/461699) for more information.
 
@@ -12,9 +12,9 @@ See [Gatesy et al. bioRxiv pre-print](https://www.biorxiv.org/content/early/2018
 
 This automation is implemented with a Perl script that has been designed for a Unix environment (Mac OSX or Linux). It has been tested in Mac OSX 10.11 and Linux CentOS 6, but it should work in most Unix environments.
 
-Perl - The provided Perl script should called by users (pcs_mpest.pl). Perl is pre-installed in most Mac OSX and Linux distributions.
+Perl - The provided Perl script should be called by users (pcs_mpest.pl). Perl is pre-installed in most Mac OSX and Linux distributions.
 
-MP-EST - The Perl script calls MP-EST (http://faculty.franklin.uga.edu/lliu/content/mp-est), which must be installed, and the user must provide the full path and file name for the MP-EST executable. The script has been tested with MP-EST v1.5 but would likely work with other versions.
+MP-EST - The Perl script calls [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est), which must be installed, and the user must provide the full path and file name for the MP-EST executable. The script has been tested with MP-EST v1.5 but would likely work with other versions.
 
 
 ## Running pcs_mpest.pl:
