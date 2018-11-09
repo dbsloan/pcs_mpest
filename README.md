@@ -1,7 +1,7 @@
 # pcs_mpest
 Scripts for automating Partitioned Coalescence Support (PCS) using MP-EST
 
-pcs_mpest.pl
+`pcs_mpest.pl`
 
 ## Overview: 
 This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 Cladistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-est) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
@@ -21,7 +21,7 @@ MP-EST - The Perl script calls [MP-EST](http://faculty.franklin.uga.edu/lliu/mp-
 The script can be called from the command line to analyze a set of gene trees with MP-EST. The user must specify the gene trees, the reference species tree, and at least one alternative topology. The user most also provide the content for the control file that is used to run MP-EST (see format in the sample_data: control_core.txt). There are required parameters that are specified at the command line as described below. Sample data and expected output files are provided in the sample_data directory.
 
 
-Usage: perl pcs_mpest.pl [arguments] > output_file
+Usage: `perl pcs_mpest.pl [arguments] > output_file`
 
    REQUIRED ARGUMENTS
    
